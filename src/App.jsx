@@ -7,7 +7,7 @@ function App() {
   const [password, setPassword] = useState("")
 
   const passwordRef = useRef(null)
-
+   console.log(passwordRef)
   const passGenerator = useCallback(() => {
     let pass = ""
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
